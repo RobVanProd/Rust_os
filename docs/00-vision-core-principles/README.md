@@ -1,11 +1,4 @@
-# Rust-Native GUI Operating System
-
-This project is an initiative to build a modern, memory-safe, AI-ready operating system primarily in Rust.
-Our goal is to create a secure, performant, and developer-friendly OS from the ground up, leveraging Rust's safety features and the latest advancements in OS design.
-
-For a detailed understanding of our architecture and development stages, please see the [Full Development Roadmap](docs/ROADMAP.md).
-
-## Vision & Core Principles
+# 0 · Vision & Core Principles
 
 | Goal                               | Design Choice                                                                                                | Rationale                                                                                                     |
 | ---------------------------------- | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------- |
@@ -16,7 +9,4 @@ For a detailed understanding of our architecture and development stages, please 
 | Wayland-style graphics stack       | Compositor in user space, protocol built with Smithay blocks                                                 | Modern, departs from X11 complexity, written in Rust                                                          |
 | Modern GUI tool-kit                | Widget library based on iced/libcosmic plus wgpu renderer                                                    | Proven in Pop!_OS COSMIC; easily themed; GPU-accelerated                                                      |
 
----
-
-Further documentation can be found in the `docs` directory.
-- [Contribution Guidelines](CONTRIBUTING.md)
+This section outlines the foundational goals and design choices that will guide the development of the Rust-Native GUI Operating System. Each principle is chosen to contribute towards a memory-safe, secure, performant, and AI-ready system.
